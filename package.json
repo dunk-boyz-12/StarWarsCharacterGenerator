@@ -1,0 +1,24 @@
+{
+  "name": "StarWarsApp",
+  "version": "1.0.0",
+  "description": "Who are you in the Star Wars Universe?",
+  "main": "src/index.js",
+  "author": "Nicholas Buras <nicholas.buras@trojans.dsu.edu>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "bootstrap": "^4.5.2",
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.3.0",
+    "react-dom": "^16.13.1"
+  },
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "devDependencies": {
+    "sass": "^1.26.10"
+  }
+}
