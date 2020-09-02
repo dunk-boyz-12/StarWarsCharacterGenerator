@@ -2,13 +2,20 @@ import React from "react";
 import ReactDOM from "react-dom";
 //components
 import SelectButton from "./components/Button";
+import InputForm from "./components/Form";
+import { Container, Card, Form, Button, Row } from "react-bootstrap";
 //styles
 import "./styles/global.scss";
+import CharacterCard from "./components/CharacterCard";
+//babel
+import "regenerator-runtime/runtime";
 function App() {
   return (
-    <React.Fragment>
+    <Container fluid>
+      <CharacterCard />
+      <InputForm />
       <SelectButton />
-    </React.Fragment>
+    </Container>
   );
 }
 
